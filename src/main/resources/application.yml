@@ -1,4 +1,8 @@
 spring:
-  datasource:
-    url: jdbc:h2:mem:testdb
-
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: client_id
+            client-secret: client_secret
